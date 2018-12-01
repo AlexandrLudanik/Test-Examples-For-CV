@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Surefire suite]" parallel="methods">
+  <test thread-count="2" verbose="0" name="Surefire test(failed)" parallel="methods">
+    <classes>
+      <class name="pages.MainPageTest">
+        <methods>
+          <include name="numberWithSquareNotLessThen50WithWifi"/>
+          <include name="findThreeMoreNumbersInCityInTheNearestWeekend"/>
+          <include name="findHotelWithMarkNotLessThen9"/>
+          <include name="findNumberWithSquareNotLessThen50"/>
+          <include name="errorMessage"/>
+          <include name="tearDown"/>
+          <include name="findReservationWithoutCreditCardInCityInTheNearestWeekend"/>
+          <include name="numberWithSquareNotLessThen50WithAirportShuttle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pages.MainPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

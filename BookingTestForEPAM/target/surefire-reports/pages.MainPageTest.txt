@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: pages.MainPageTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 19, Time elapsed: 2.142 s <<< FAILURE! - in pages.MainPageTest
+setUp(pages.MainPageTest)  Time elapsed: 1.895 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-QRB1M2V16K0', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 548 milliseconds
+	at pages.MainPageTest.setUp(MainPageTest.java:30)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-QRB1M2V16K0', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'WIN-QRB1M2V16K0', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+setUp(pages.MainPageTest)  Time elapsed: 1.895 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-QRB1M2V16K0', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 548 milliseconds
+	at pages.MainPageTest.setUp(MainPageTest.java:30)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-QRB1M2V16K0', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'WIN-QRB1M2V16K0', ip: '192.168.100.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
